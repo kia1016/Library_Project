@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Library Project</title>
+    
   </head>
   <body>
     <main
@@ -16,8 +17,11 @@
     >
       <div>
         <h1>Library Project</h1>
+        <from id="book-form">
         <div id="library">
-          <!-- Add table here -->
+        
+        
+         
           <table id="table" style="min-width: 680px; margin: 2rem">
             <thead>
               <tr>
@@ -42,6 +46,24 @@
               </tr>
             </tbody>
           </table>
+        </div>
+        <div>
+          <div>
+            <label for="title">Title</label>
+          <input type="text" name="title" id="title">
+          </div>
+        <div>
+          <label for="author">Author</label>
+          <input type="text" name="author" id="author">
+        </div>
+        <div>
+          <label for="read">Read</label><br>
+          <input type="checkbox" name="read" id="read"> 
+        </div>
+        <input
+          id ="addButton"
+          type="submit"
+          value="Add Book">
         </div>
     </main>
 
